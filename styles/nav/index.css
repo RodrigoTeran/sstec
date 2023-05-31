@@ -17,8 +17,11 @@
     left: 20px;
     top: 0;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav_logo > img {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }

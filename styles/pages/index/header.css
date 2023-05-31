@@ -1,11 +1,70 @@
 .index_header {
     height: calc(100vh - 80px);
     width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 60px;
 }
 
 .index_header_back {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
     background: linear-gradient(90.08deg, #4C9DA7 0.07%, #8CD170 100.95%);
     width: 100%;
     height: 80%;
     clip-path: ellipse(80% 60% at 50% 40%);
+}
+.index_header_left,
+.index_header_right {
+    height: 80%;
+    width: 45%;
+}
+.index_header_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    gap: 30px;
+}
+.index_header_left > h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+}
+.index_header_left > h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 2rem;
+}
+.index_header_left > button {
+    width: fit-content;
+    background-color: #5271FF;
+    border-radius: 100000px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 1.25rem;
+}
+
+.index_header_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.index_header_right > img {
+    width: 80%;
+}
+
+@media (hover:hover) and (pointer:fine) {
+    .index_header_left > button:hover {
+        background-color: #6a85fd;
+    }
 }

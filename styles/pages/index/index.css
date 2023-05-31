@@ -1,2 +1,5 @@
 @import "header.css";
 
+.index_main {
+    position: relative;
+}
