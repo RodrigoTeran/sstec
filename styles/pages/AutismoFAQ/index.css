@@ -1,0 +1,67 @@
+.index_header_back {
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90.08deg, #4C9DA7 0.07%, #8CD170 100.95%);
+    width: 80%;
+    height: 80%;
+    /* center */
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+.header_faq {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    /* font size */
+    font-size: 4rem;
+    color: #FFF;
+}
+
+.index_header {
+    height: calc(100vh - 80px);
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.p_faq {
+    /* font size */
+    font-size: 2rem;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    /* font weight */
+    font-weight: 700;
+}
+
+.hr_faq {
+    /* width */
+    width: 80%;
+    /* color */
+    color: #FFF;
+    /* margin */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-bottom: 5px solid #FFF;
+}
+
+.text_faq {
+    /* font size */
+    font-size: 1.5rem;
+    /* font weight */
+    /* margin */
+    margin-left: 10%;
+    margin-right: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
