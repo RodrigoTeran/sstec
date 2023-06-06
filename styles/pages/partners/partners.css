@@ -7,7 +7,7 @@
     width: 100%;
     position: relative;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     gap: 60px;
 }
@@ -73,7 +73,7 @@
     font-style: italic;
 }
 
-.partners_footer > img{
+.partners_footer_logo{
     width: 3rem;
     margin-left: 2rem;
 
