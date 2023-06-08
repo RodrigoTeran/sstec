@@ -17,10 +17,14 @@
     width: 100%;
     height: 80%;
 }
-.index_header_left,
-.index_header_right {
-    height: 80%;
-    width: 45%;
+
+.profile{
+    object-fit: cover;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: inline-block; 
+    margin-right: 50px;
+    width: 400px;
 }
 .index_header_left {
     border-bottom: 2px solid;
@@ -58,9 +62,32 @@
     justify-content: center;
     align-items: center;
 }
-.index_header_right > img {
-    width: 80%;
-}
+
+.rectangle {
+    background-color: #eaeaea;
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 10px;
+    display: inline-block; 
+    margin-right: 50px;
+    width: 400px; 
+  }
+
+.nombre{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .puesto{
+    font-size: 1 rem;
+    color:black;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
 
 @media (hover:hover) and (pointer:fine) {
     .index_header_left > button:hover {
