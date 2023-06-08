@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <!-- Global CSS -->
+        <link rel="stylesheet" href="../styles/styles.css">
+        <link rel="stylesheet" href="../styles/nav/index.css">
+        
+        <!-- Partners page -->
+        <link rel="stylesheet" href="../styles/pages/help/help.css">
+        <title>Nuestros Socios</title>
+    </head>
+    <head>
+        <title>Two Columns with Rounded Borders</title>
+        <style>
+            body, html {
+                height: 100%;
+                margin: 0;
+            }
+    
+            .container {
+                height: 50px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start; /* Alinea las columnas al lado izquierdo */
+                max-width: 50%; /* Ancho máximo de la página */
+            }
+    
+            .column {
+                flex: 0 0 calc(50% - 10px); /* Establece el ancho máximo de las columnas */
+                max-width: calc(50% - 10px);
+                padding: 10px;
+                box-sizing: border-box;
+                border-radius: 10px; /* Agrega bordes redondeados */
+                margin: 0 10px 20px 0; /* Espacio de margen entre las columnas */
+                background: linear-gradient(90deg, #0097b2, #7ed957);
+                color: white;
+            }
+        </style>
+    </head>
+    <section>
+        <!DOCTYPE html>
+<html>
+<head>
+    <title>Two Columns with Gradient Background</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            height: 100%;
+            display: flex;
+            justify-content: center; /* Centra el contenido horizontalmente */
+            align-items: center; /* Centra el contenido verticalmente */
+        }
+
+        .column {
+            flex: 1;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin: 5px; /* Agrega un margen de 5px entre las columnas */
+            border-radius: 10px; /* Agrega esquinas redondas a las columnas */
+        }
+
+        .column:first-child {
+            padding-right: 10px;
+        }
+
+        .column:last-child {
+            padding-left: 10px;
+        }
+
+        .column:nth-child(1),
+        .column:nth-child(2) {
+            background: linear-gradient(90deg, #0097b2, #7ed957);
+            color: white;
+        }
+
+        .diagonal-images {
+            position: relative;
+            width: 33.33%; /* Disminuye el ancho del contenedor de imágenes a un tercio */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            padding-right: 10px;
+            margin-right: 10px;
+        }
+
+        .diagonal-images img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            transform: rotate(-45deg);
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="column">
+            <!-- Content for the left column -->
+            <h2>Left Column 1</h2>
+            <p>This is the content of the first column on the left side.</p>
+        </div>
+        <div class="column">
+            <!-- Content for the right column -->
+            <h2>Left Column 2</h2>
+            <p>This is the content of the second column on the left side.</p>
+        </div>
+        <div class="diagonal-images">
+            <img src="path/to/image1.jpg" alt="Image 1">
+            <img src="path/to/image2.jpg" alt="Image 2">
+        </div>
+    </div>
+</body>
+</html>
