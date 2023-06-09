@@ -1,0 +1,245 @@
+.index_header {
+  height: calc(100vh - 600px);
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 60px;
+
+}
+
+
+.index_header_back {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90.08deg, #4C9DA7 0.07%, #8CD170 100.95%);
+  width: 100%;
+  height: 80%;
+  border-radius: 15px; /* También es necesario redondear los bordes del elemento de fondo */
+  overflow: hidden;
+}
+
+.profile {
+  object-fit: cover;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 50px;
+  width: 400px;
+}
+
+.index_header_left {
+  border-bottom: 2px solid #FFF;
+  text-align: center;
+  color: #FFF;
+  gap: 30px;
+}
+
+.index_header_left > h1 {
+  position: absolute;
+  margin-top: 150px;
+  padding: 0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.index_header_left > h2 {
+  margin-top: 50px;
+  padding: 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+.index_header_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rectangle {
+  background-color: #eaeaea;
+  border-radius: 40px;
+  padding: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 50px;
+  width: 400px;
+}
+
+.nombre {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.puesto {
+  font-size: 1rem;
+  color: black;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .index_header_left > button:hover {
+    background-color: #6a85fd;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .index_header {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+  }
+
+  .index_header_left > h1 {
+    font-size: 2.5rem;
+  }
+
+  .index_header_left > h2 {
+    font-size: 1.5rem;
+  }
+
+  .index_header_left,
+  .index_header_right {
+    height: 60%;
+    width: 55%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .index_header {
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .index_header_left > h1 {
+    font-size: 2rem;
+  }
+
+  .index_header_left > h2 {
+    font-size: 1.5rem;
+  }
+
+  .index_header_left,
+  .index_header_right {
+    height: 45%;
+  }
+}
+
+.volunteer_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+}
+
+.volunteer_text {
+  width: 45%;
+  line-height: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.volunteer_image {
+  align-items: center;
+  width: 40%;
+}
+
+.volunteer_image > img {
+  width: 40%;
+  height: auto;
+  margin: 30px;
+}
+
+.signup_section {
+  background: linear-gradient(90.08deg, #4C9DA7 0.07%, #8CD170 100.95%);
+  padding: 2rem;
+  color: #FFF;
+  padding: 40px;
+  margin: 0 40px; 
+  border-radius: 15px; 
+  text-align: center;
+}
+
+.signup_section form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup_section input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.button {
+  background-color: #5271FF;
+  color: #FFF;
+  border: none;
+  padding : 100px; 
+  cursor: pointer;
+  height: 50px;
+  width: 200px;
+  border-radius: 90px; 
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.signup_section button:hover {
+  background-color: #6a85fd;
+}
+
+@media screen and (max-width: 1000px) {
+  .index_header {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+  }
+
+  .index_header_left > h1 {
+    font-size: 2.5rem;
+  }
+
+  .index_header_left > h2 {
+    font-size: 1.5rem;
+  }
+
+  .index_header_left,
+  .index_header_right {
+    height: 60%;
+    width: 55%;
+  }
+
+  .volunteer_section,
+  .signup_section form {
+    flex-direction: column;
+  }
+
+  .volunteer_text,
+  .volunteer_image,
+  .signup_left,
+  .signup_right {
+    width: 50%;
+  }
+}
+
+.signup_right{
+  justify-content: left;
+  align-items: center;
+  width: 70%;
+}
+
+.signup_left{
+  justify-content: left;
+  align-items: center;
+  width: 70%;
+}

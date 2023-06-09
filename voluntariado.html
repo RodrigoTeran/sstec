@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/nav/index.css">
+    
+    <!-- Index page -->
+    <link rel="stylesheet" href="styles/pages/volun/volun.css">
+    <title>Ana Cristina Juárez Diez Marina I.A.P.</title>
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav_logo">
+            <img src="assets/logo.png" alt="Ana Cristina Juárez Diez Marina I.A.P.">
+        </div>
+        <div class="nav_hamburger_container">
+            <div class="nav_hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        <div class="nav_links">
+            <a class="nav_link" href="autismo.html">
+                ¿Qué es autismo?
+            </a>
+            <a class="nav_link" href="informacion.html">
+                Información
+            </a>
+            <a class="nav_link" href="nuestro-trabajo.html">
+                Nuestro trabajo
+            </a>
+            <a class="nav_link" href="ayuda.html">
+                ¿Cómo puedes ayudarnos?
+            </a>
+        </div>
+    </nav>
+    <main class="index_main">
+        <header class="index_header">
+            <div class="index_header_back"></div>
+            <div class="index_header_left">
+                <h2>
+                    ¡Únete al equipo de voluntarios!
+                </h2>
+                <h2>
+                    Juntos representamos un mundo de diferencia.
+                    
+                </h2>        
+            </div>
+            <div class="index_header_right">
+            </div>
+        </header>
+        <section>
+        </section>
+        <section class="volunteer_section">
+            <div class="volunteer_text">
+                <h2>¿Estás buscando la forma de contribuir a la sociedad y hacer un impacto positivo?</h2>
+                <p>El equipo de voluntariado es un trabajo fundamental en la organización, ayuda a que sea un mundo inclusivo para las personas autistas.
+                Las oportunidades de voluntariado son flexibles y diversas, nos aseguramos de encontrar actividades que se adapten a tus intereses, habilidades y disponibilidad.
+                El voluntariado es una excelente forma de conocer personas con los mismos intereses, adquirir habilidades y hacer una contribución importante en la sociedad.
+                Siempre tendremos un rol para ti en el equipo.</p>
+            </div>
+            <div class="volunteer_image">
+                <img src="assets/voluntariado/voluntariado1.png" alt="Volunteer">
+            </div>
+
+        </section>
+        <br>
+        <br>
+        <section class="volunteer_section">
+        <div class="volunteer_text">
+            <h2>Algunas de las actividades de voluntariado son las siguientes: </h2>
+            <p>
+                <ul> 
+                    <li>Apoyo en actividades recreativas con los beneficiarios.</li>
+                    <li>Apoyo en eventos amistosos.</li>
+                    <li> Apoyo en actividades de mantenimiento de la organización.</li>
+                    <li> Entre otras. </li>
+                </ul>   
+            </p>
+        </div>
+        <div class="volunteer_image">
+            <img src="assets/voluntariado/voluntariado2.png" alt="Volunteer">
+        </div>
+        </section>
+
+
+       <!-- Falta implementar api, mientras está un "mailto" al cual hay que modificar el correo si es que se deja así -->
+        <section class="signup_section">
+            <h2 style="text-align: left;">Inscríbete</h2>
+            <form method="post" enctype="text/plain" action="mailto:correo@gmail.com?subject=¡Quiero participar como voluntari@!"nombre">
+              <div class="signup_left">
+                <span>Nombre completo:    </span><input type="text" name="Nombre completo" placeholder="nombre">
+                <br>
+                <span>Edad:    </span><input type="number" name="Edad" placeholder="...">
+                <br>
+                <span>Sexo:    </span><input type="text" name="Sexo" placeholder="...">
+              </div>
+              <div class="signup_right">
+                <span>Correo electrónico:    </span><input type="email" name="Correo electrónico" placeholder="ejemplo@mymail.com">
+                <br>
+                <span>Teléfono:    </span><input type="tel" name="Teléfono" placeholder="111 111 1111">
+                <br>
+                <input type="submit" class="button" value="Enviar">
+              </div>
+            </form>
+          </section>
+          
+    </main>
+
+    <script src="js/nav/index.js"></script>
+</body>
+</html>
